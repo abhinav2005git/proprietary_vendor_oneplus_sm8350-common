@@ -725,7 +725,7 @@
 <EncoderProfile quality="high" fileFormat="mp4" duration="30">
 <!--  #ifndef OPLUS_BUG_COMPATIBILITY  -->
 <!--  yangwen@MULTIMEDIA.MediaServer.cts.662064,20201207  -->
-<Video codec="h264" bitRate="20000000" width="1920" height="1080" frameRate="60"/>
+<Video codec="h264" bitRate="20000000" width="1280" height="720" frameRate="60"/>
 <!--  #endif //OPLUS_BUG_COMPATIBILITY  -->
 <Audio codec="aac" bitRate="156000" sampleRate="48000" channels="2"/>
 </EncoderProfile>
@@ -743,10 +743,6 @@
 </EncoderProfile>
 <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
 <Video codec="h264" bitRate="14000000" width="1280" height="720" frameRate="60"/>
-<Audio codec="aac" bitRate="156000" sampleRate="48000" channels="2"/>
-</EncoderProfile>
-<EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
-<Video codec="h264" bitRate="20000000" width="1920" height="1080" frameRate="60"/>
 <Audio codec="aac" bitRate="156000" sampleRate="48000" channels="2"/>
 </EncoderProfile>
 <!--  #ifndef OPLUS_BUG_COMPATIBILITY  -->
@@ -792,18 +788,6 @@
             channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-            bitRate="50000000"
-            width="3840"
-            height="2160"
-            frameRate="30" />
-
-      <Audio codec="aac"
-            bitRate="156000"
-            sampleRate="48000"
-            channels="2" />
-    </EncoderProfile>
  -->
 <!--  #endif //OPLUS_BUG_COMPATIBILITY  -->
 <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
@@ -822,7 +806,7 @@
 <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="30">
 <!--  #ifndef OPLUS_BUG_COMPATIBILITY  -->
 <!--  yangwen@MULTIMEDIA.MediaServer.cts.662064,20201207  -->
-<Video codec="h264" bitRate="20000000" width="1920" height="1080" frameRate="30"/>
+<Video codec="h264" bitRate="20000000" width="1280" height="720" frameRate="30"/>
 <!--  #endif //OPLUS_BUG_COMPATIBILITY  -->
 <Audio codec="aac" bitRate="156000" sampleRate="48000" channels="2"/>
 </EncoderProfile>
@@ -853,11 +837,6 @@
 </EncoderProfile>
 <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
 <Video codec="h264" bitRate="14000000" width="1280" height="720" frameRate="30"/>
-<!--  audio setting is ignored  -->
-<Audio codec="aac" bitRate="156000" sampleRate="48000" channels="2"/>
-</EncoderProfile>
-<EncoderProfile quality="timelapse1080p" fileFormat="mp4" duration="30">
-<Video codec="h264" bitRate="20000000" width="1920" height="1080" frameRate="30"/>
 <!--  audio setting is ignored  -->
 <Audio codec="aac" bitRate="156000" sampleRate="48000" channels="2"/>
 </EncoderProfile>
@@ -904,18 +883,6 @@
             channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapse2160p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-            bitRate="50000000"
-            width="3840"
-            height="2160"
-            frameRate="30" />
-
-      <Audio codec="aac"
-            bitRate="156000"
-            sampleRate="48000"
-            channels="2" />
-    </EncoderProfile>
  -->
 <!--  #endif //OPLUS_BUG_COMPATIBILITY  -->
 <ImageEncoding quality="95"/>
