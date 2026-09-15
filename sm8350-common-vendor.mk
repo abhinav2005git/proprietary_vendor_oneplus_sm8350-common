@@ -1357,7 +1357,6 @@ PRODUCT_PACKAGES += \
     thermal-engine \
     time_daemon \
     vendor.qti.qspmhal@1.0-service \
-    vendor_modprobe \
     vppservice \
     wfdhdcphalservice \
     wfdvndservice \
